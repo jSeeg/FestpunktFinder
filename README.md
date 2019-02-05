@@ -12,7 +12,7 @@ In einem Einstellungsmenüpunkt kann zudem die Datenbank zurückgesetzt, die Kar
 
 
 Testdaten:
--Testdaten sind im Testdatenordner zu finden (liegen in verschiedenen Datenformaten vor und beinhalten z.T. gleiche oder ähnliche Daten)
+- Testdaten sind im Testdatenordner zu finden (liegen in verschiedenen Datenformaten vor und beinhalten z.T. gleiche oder ähnliche Daten)
 
 
 Known Bugs:
