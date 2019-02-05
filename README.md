@@ -11,5 +11,9 @@ Hier können gewünschte Punkte eingeladen werden. Diese können dann, durch ihr
 In einem Einstellungsmenüpunkt kann zudem die Datenbank zurückgesetzt, die Karte von Punkten geleert sowie Login-Einstellungen zum Datenbankzugriff getätigt werden.
 
 
+Testdaten:
+-Testdaten sind im Testdatenordner zu finden (liegen in verschiedenen Datenformaten vor und beinhalten z.T. gleiche oder ähnliche Daten)
+
+
 Known Bugs:
 - temporär scheint das Straßenrouting nicht zu funktionieren, da die Billingverifizierung für das Google-Projekt noch nicht durchführbar ist.
