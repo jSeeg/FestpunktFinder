@@ -1,6 +1,7 @@
 # FestpunktFinder
 
 Bei der Festpunktfinder-App handelt es sich um eine Location-Aware-Android-App, also eine Anwendung, die den aktuellen Standort bestimmen kann.
+
 Sie dient dazu, die Vermessungsarbeit im Außendienst zu unterstützen.
 Festpunkte sollen hiermit einfach im Gelände zu finden und die Organisation und Bereitstellung der Festpunktinformationen für die Außendienstmitarbeiter schnell, einfach und portabel gestaltet sein.
 Hierfür können Punktinformationen von Festpunkten (wie Projektnummer, Punktnummer, Punktart, Koordinaten, Bilddokumentationen) in die App geladen und gespeichert werden.
