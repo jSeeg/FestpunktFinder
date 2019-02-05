@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Quelle: http://stackoverflow.com/questions/6044793/popupwindow-with-image
+ Beitrag: Zoombie
+Letzte Sichtung: 17.07.2016 19:15 Uhr
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/layout_root"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="10dp">
+
+        <joernseeglitz_beuth_hochschule.de.festpunktfinder.TouchImageView
+            android:id="@+id/fullimage"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        </joernseeglitz_beuth_hochschule.de.festpunktfinder.TouchImageView>
+
+        <TextView android:id="@+id/custom_fullimage_placename"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textColor="#FFF"
+            android:layout_gravity="top">
+        </TextView>
+
+    </LinearLayout>
+
+</LinearLayout>

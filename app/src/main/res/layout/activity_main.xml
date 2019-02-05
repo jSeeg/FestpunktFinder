@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="joernseeglitz_beuth_hochschule.de.festpunktfinder.MainActivity"
+android:background="#FFFFFF"
+
+android:orientation="vertical">
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/darker_gray">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageViewIcon"
+        android:layout_gravity="center_vertical"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height= "50dp"
+        android:id="@+id/spinner"
+        android:entries="@array/dropdown_items"
+        android:spinnerMode="dropdown" />
+
+</LinearLayout>
+
+
+<FrameLayout
+    android:id="@+id/fragment_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+</FrameLayout>
+</LinearLayout>
+

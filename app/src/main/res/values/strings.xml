@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">FestpunktFinder</string>
+    <string name="title_activity_maps">FestpunktFinder</string>
+    <string name="google_maps_key">AIzaSyCrgH7V5LiRk3zmQSEDI1B5miXS_1f0GVA</string>
+    <string name="google_server_key">AIzaSyCNnuv1hojB-UCnzB10RF2fx40_CKsGLq0</string>
+    <string name="start_info">Info:</string>
+    <string name="start_autor">Autor: Jörn Seeglitz</string>
+    <string name="start_version">Version: 1.0</string>
+    <string name="start_text">\nDies ist die FestpunktFinder-App.
+        \nSie dient der Lokalisierung von geodätischen Festpunkten.</string>
+    <string name="import_info1">Info zur Auswahl:
+        \nGerät durchsuchen:
+        \nDer geräteinterne Speicher kann nach einer Punktdatei durchsucht werden.
+        \nNach der Auswahl der gewünschten Daten,
+         werden die Informationen automatisch in die App-Datenbank geladen.
+        \n\nWichtig:
+        \nUnterstützte Formate sind CSV-, PKT- oder XML-Dateien mit folgenden Formatierungen:
+        \n\nCSV: \"Punktnummer;Punktart;Rechtswert;Hochwert;Höhe;geogr. Länge[dec];geogr. Breite[dec];Anmerkung\"
+        \nSind hierbei Werte nicht vorhanden so können zwei Semikolons aufeinander folgen
+        (leere Werteeingabe).
+        \n\nPKT: \"Punktnummer Punktart Rechtswert Hochwert Höhe\"
+        \noder \"Punktnummer Punktart geogr._Länge[dec] geogr._Breite[dec] Höhe\"
+        \n\nXML: Das passende Format wird automatisch von dem empfohlenen Tool generiert.</string>
+     <string name="import_info2">Info zur Auswahl:
+         \nDaten in die Karte einladen:
+         \nDie Datenbank der App kann nach den gewünschten Daten durchsucht werden.
+         \nDie Punkte können dann in die Kartedarstellung geladen werden.</string>
+    <string name="import_info3">Info zur Auswahl:
+        \nAus externen Datenbank importieren:
+        \nEine Verbindung zu einer externen Datenbank wird aufgebaut, um
+        dort die gewünschten Informationen abzufragen und in die App zu importieren.</string>
+    <string name="import_info4">Info zur Auswahl:
+        \nAus Manuelle Eingabe:
+        \nEine manuelle Eingabe von Punkten mit den dazugehörigen Attributen,
+        wird durch diverse Eingabefelder durchgeführt.
+        \nDiese Daten werden dann in der App-internen Datenbank gespeichert.
+        \n - manulle Punkteingabe
+        \n - manuelles Zuweisen von Bildern zu Punkten</string>
+    <string-array name="dropdown_items">
+        <item>Info</item>
+        <item>Import</item>
+        <item>Punktübersicht</item>
+        <item>Karte</item>
+        <item>Einstellungen</item>
+    </string-array>
+    <string-array name="spinner_dateiformat_items">
+        <item>CSV</item>
+        <item>PKT</item>
+        <item>XML</item>
+    </string-array>
+    <string-array name="spinner_system_items">
+        <item>ETRS89</item>
+        <item>WGS84</item>
+    </string-array>
+    <string name="einstellungen_position">Positionseinstellungen:</string>
+</resources>

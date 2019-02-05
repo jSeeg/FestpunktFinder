@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mapfragmentRelativLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <com.google.android.gms.maps.MapView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/mapfragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    </com.google.android.gms.maps.MapView>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:gravity="start"
+            android:background="#339a9a9a">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Punktnummersuche:"
+                android:textColor="#000000"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonMapPunktSucheShowLayout"
+                android:textColor="#000000"
+                android:background="#339a9a9a"
+                android:contentDescription="UP_DOWN_BUTTON"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:gravity="center"
+            android:id="@+id/MapPunktSucheLinearLayout"
+            android:background="#339a9a9a">
+
+            <Spinner
+                android:layout_width="0pt"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinnerMapPunktSuche"
+                android:layout_weight="0.35"
+                android:background="#339a9a9a"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Suchen"
+                android:id="@+id/buttonMapPunktSuche"
+                android:background="#339a9a9a"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewMapFragmentDistanzen"
+            android:textColor="#000000"
+            android:background="#33000000"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="15pt"
+            android:id="@+id/mapfragmentTextViewOben"
+            android:textColor="#000000"
+            android:background="#33000000"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
+
+

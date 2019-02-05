@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="horizontal|vertical"
+    android:id="@+id/scrollViewEinstellungen">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Einstellungen:"
+            android:id="@+id/textViewEinst1"
+            android:textColor="#000000" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="#000000"
+            android:layout_marginTop="5pt" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Datenbankeinstellungen:"
+            android:id="@+id/textViewEinst3"
+            android:textSize="8pt"
+            android:textColor="#000000"
+            android:layout_marginTop="10pt"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Datenbank zurücksetzen"
+            android:id="@+id/buttonEinstellungenDatenbankZuruecksetzen"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10pt"/>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="#000000"
+            android:layout_marginLeft="10pt"
+            android:layout_marginRight="10pt"
+            android:layout_marginTop="5pt"
+            android:layout_marginBottom="5pt"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Karteneinstellungen:"
+            android:id="@+id/textViewEinst4"
+            android:textSize="8pt"
+            android:textColor="#000000"
+            android:layout_marginTop="10pt"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alle Punkte aus der Karte entfernen"
+            android:id="@+id/buttonEinstellungenKartenPunkteEntfernen"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10pt"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/einstellungen_position"
+            android:id="@+id/textViewEinst2"
+            android:textSize="8pt"
+            android:textColor="#000000"
+            android:layout_marginTop="10pt"
+            android:layout_gravity="center_horizontal" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5pt">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Positionsabfrageintervall [ms]:"
+                    android:textSize="8pt"
+                    android:textColor="#000000" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editTextEinstellungenMapPoSitionsInterval"
+                    android:layout_weight="1"
+                    android:background="#bebebe"
+                    android:layout_marginRight="5pt"
+                    android:inputType="number"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5pt">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Map-Zoom-Entfernung [m]:"
+                    android:textSize="8pt"
+                    android:textColor="#000000" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editTextEinstellungenMapZoomEntfernug"
+                    android:layout_weight="1"
+                    android:background="#bebebe"
+                    android:layout_marginRight="5pt"
+                    android:inputType="number"/>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Übernehmen"
+                android:id="@+id/buttonEinstellungenMapUebernehmen"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5pt" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="#000000"
+            android:layout_marginLeft="10pt"
+            android:layout_marginRight="10pt"
+            android:layout_marginTop="5pt"
+            android:layout_marginBottom="5pt"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Importeinstellung:"
+            android:textSize="8pt"
+            android:textColor="#000000"
+            android:layout_marginTop="10pt"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Einstellungen zum Import aus einer externen Datenbank:"
+            android:textSize="8pt"
+            android:textColor="#000000"
+            android:layout_marginTop="10pt"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Verbindungs-URL:"
+            android:textSize="8pt"
+            android:textColor="#000000"
+            android:layout_marginTop="5pt"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextEinstellungenExternDBUrl"
+            android:background="#bebebe"
+            android:layout_marginRight="5pt"
+            android:layout_marginLeft="5pt"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Benutzer:"
+            android:textSize="8pt"
+            android:textColor="#000000"
+            android:layout_marginTop="5pt"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextEinstellungenExternDBUser"
+            android:background="#bebebe"
+            android:layout_marginRight="5pt"
+            android:layout_marginLeft="5pt"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Passwort:"
+            android:textSize="8pt"
+            android:textColor="#000000"
+            android:layout_marginTop="5pt"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextEinstellungenExternDBPasswort"
+            android:background="#bebebe"
+            android:layout_marginRight="5pt"
+            android:layout_marginLeft="5pt"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Datenbankname:"
+            android:textSize="8pt"
+            android:textColor="#000000"
+            android:layout_marginTop="5pt"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextEinstellungenExternDBDB"
+            android:background="#bebebe"
+            android:layout_marginRight="5pt"
+            android:layout_marginLeft="5pt"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Servername:"
+            android:textSize="8pt"
+            android:textColor="#000000"
+            android:layout_marginTop="5pt"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextEinstellungenExternDBServer"
+            android:background="#bebebe"
+            android:layout_marginRight="5pt"
+            android:layout_marginLeft="5pt"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Übernehmen"
+            android:id="@+id/buttonEinstellungenExterneDBUebernehmen"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5pt" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="#000000"
+            android:layout_marginLeft="10pt"
+            android:layout_marginRight="10pt"
+            android:layout_marginTop="5pt"
+            android:layout_marginBottom="5pt"/>
+
+    </LinearLayout>
+
+</ScrollView>
