@@ -13,6 +13,9 @@ In einem Einstellungsmenüpunkt kann zudem die Datenbank zurückgesetzt, die Kar
 
 Testdaten:
 - Testdaten sind im Testdatenordner zu finden (liegen in verschiedenen Datenformaten vor und beinhalten z.T. gleiche oder ähnliche Daten)
+- Dieses Dateien dienem dem Funktionstest der App
+- Sie müssen auf dem Smartphone, auf dem die App ausgeführt wird kopiert werden
+- Anschließend kann/können eine oder mehrere Dateien über die App-interne Importfunktion in die Appdatenbank integriert werden.
 
 
 Known Bugs:
