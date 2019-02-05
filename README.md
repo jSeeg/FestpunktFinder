@@ -12,4 +12,4 @@ In einem Einstellungsmenüpunkt kann zudem die Datenbank zurückgesetzt, die Kar
 
 
 Known Bugs:
-- temporär scheint das Straßenrouting nicht zu funktionieren, da die Billingverifizierung für das Google-Projekt noch nicht durchführbar sind.
+- temporär scheint das Straßenrouting nicht zu funktionieren, da die Billingverifizierung für das Google-Projekt noch nicht durchführbar ist.
